@@ -1,0 +1,11 @@
+# Tested with Python 3.13 on Windows (Git Bash) in Nov 2026.
+azure-identity>=1.25
+requests>=2.32
+streamlit[pdf]>=1.50
+pandas>=2.2
+# Only needed to regenerate the samples (gen_samples.py, gen_hard.py)
+reportlab>=4.0
+opencv-python>=4.9
+numpy>=1.26
+pymupdf>=1.24
+imageio-ffmpeg>=0.5        # makes the browser-playable H.264 copy of the demo video

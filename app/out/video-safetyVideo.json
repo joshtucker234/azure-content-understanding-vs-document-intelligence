@@ -1,0 +1,123 @@
+{
+  "status": "Succeeded",
+  "result": {
+    "analyzerId": "safetyVideo",
+    "apiVersion": "2025-11-01",
+    "createdAt": "2026-11-16T18:15:45Z",
+    "stringEncoding": "utf8",
+    "warnings": [],
+    "contents": [
+      {
+        "markdown": "# Video: 00:00.000 => 00:28.000\nWidth: 960\nHeight: 540\n\n\n\nKey Frames\n- 00:00.800 ![](keyFrame.800.jpg)\n- 00:01.600 ![](keyFrame.1600.jpg)\n- 00:02.400 ![](keyFrame.2400.jpg)\n- 00:03.200 ![](keyFrame.3200.jpg)\n- 00:04.000 ![](keyFrame.4000.jpg)\n- 00:04.800 ![](keyFrame.4800.jpg)\n- 00:05.600 ![](keyFrame.5600.jpg)\n- 00:07.800 ![](keyFrame.7800.jpg)\n- 00:08.600 ![](keyFrame.8600.jpg)\n- 00:09.400 ![](keyFrame.9400.jpg)\n- 00:10.200 ![](keyFrame.10200.jpg)\n- 00:11.000 ![](keyFrame.11000.jpg)\n- 00:11.800 ![](keyFrame.11800.jpg)\n- 00:12.600 ![](keyFrame.12600.jpg)\n- 00:14.800 ![](keyFrame.14800.jpg)\n- 00:15.600 ![](keyFrame.15600.jpg)\n- 00:16.400 ![](keyFrame.16400.jpg)\n- 00:17.200 ![](keyFrame.17200.jpg)\n- 00:18.000 ![](keyFrame.18000.jpg)\n- 00:18.800 ![](keyFrame.18800.jpg)\n- 00:19.600 ![](keyFrame.19600.jpg)\n- 00:21.800 ![](keyFrame.21800.jpg)\n- 00:22.600 ![](keyFrame.22600.jpg)\n- 00:23.400 ![](keyFrame.23400.jpg)\n- 00:24.200 ![](keyFrame.24200.jpg)\n- 00:25.000 ![](keyFrame.25000.jpg)\n- 00:25.800 ![](keyFrame.25800.jpg)\n- 00:26.600 ![](keyFrame.26600.jpg)",
+        "fields": {
+          "Title": {
+            "type": "string",
+            "valueString": "Contoso Warehouse Safety Briefing"
+          },
+          "Presenter": {
+            "type": "string",
+            "valueString": "Dana Whitfield, Safety Lead"
+          },
+          "Summary": {
+            "type": "string",
+            "valueString": "This video provides a brief overview of key safety rules for the Contoso warehouse, including forklift zones, loading dock procedures, and emergency protocols. The briefing is presented by Dana Whitfield and covers essential contact information and safety renewal requirements."
+          },
+          "Rules": {
+            "type": "array",
+            "valueArray": [
+              {
+                "type": "string",
+                "valueString": "Pedestrians must stay behind the yellow line in forklift zones."
+              },
+              {
+                "type": "string",
+                "valueString": "Maximum forklift speed is 5 mph."
+              },
+              {
+                "type": "string",
+                "valueString": "Forklift horn must be used at every intersection."
+              },
+              {
+                "type": "string",
+                "valueString": "Wheel chocks are required on all trailers at the loading dock."
+              },
+              {
+                "type": "string",
+                "valueString": "Dock 4 is reserved for hazmat deliveries."
+              },
+              {
+                "type": "string",
+                "valueString": "Report spills to extension 5511."
+              },
+              {
+                "type": "string",
+                "valueString": "Emergency assembly point is the north parking lot."
+              },
+              {
+                "type": "string",
+                "valueString": "Eyewash stations are located in aisles 3, 9, and 14."
+              },
+              {
+                "type": "string",
+                "valueString": "Training renewal is required every 12 months."
+              }
+            ]
+          },
+          "ContactExtension": {
+            "type": "string",
+            "valueString": "5511"
+          }
+        },
+        "kind": "audioVisual",
+        "startTimeMs": 0,
+        "endTimeMs": 28000,
+        "width": 960,
+        "height": 540,
+        "KeyFrameTimesMs": [
+          800,
+          1600,
+          2400,
+          3200,
+          4000,
+          4800,
+          5600,
+          7800,
+          8600,
+          9400,
+          10200,
+          11000,
+          11800,
+          12600,
+          14800,
+          15600,
+          16400,
+          17200,
+          18000,
+          18800,
+          19600,
+          21800,
+          22600,
+          23400,
+          24200,
+          25000,
+          25800,
+          26600
+        ],
+        "cameraShotTimesMs": [
+          7000,
+          14000,
+          21000
+        ],
+        "mimeType": "video/mp4"
+      }
+    ]
+  },
+  "usage": {
+    "videoHours": 0.008,
+    "contextualizationTokens": 7777,
+    "tokens": {
+      "gpt-4.1-input": 3304,
+      "gpt-4.1-output": 295
+    }
+  }
+}

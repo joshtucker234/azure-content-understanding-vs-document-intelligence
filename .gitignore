@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.env
+.azure*/
+.streamlit/secrets.toml
+
+# Real environment values (subscription ID, your email)
+scripts/00-env.sh
+
+# Third-party sample invoices are downloaded by scripts/02-fetch-real-samples.sh, never committed
+app/samples/real/*.pdf
+
+# PDF copies the UI serves to the browser (generated at runtime)
+app/static/
+
+# Generated at runtime
+app/out/review-queue-*.json
+app/out/*.log
+
+# 03_compare.py writes its reports here; the committed snapshots are in results/
+app/COMPARE*.md

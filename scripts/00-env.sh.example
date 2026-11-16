@@ -1,0 +1,18 @@
+# Copy to 00-env.sh, edit the values, then: source scripts/00-env.sh
+# 00-env.sh is git-ignored. Nothing here is a secret, but keep your subscription ID and email out of commits.
+
+export SUB="<your-subscription-id>"
+export OWNER_EMAIL="<you>@example.com"          # used for the Owner tag
+export SUF="$(printf '%04x' $RANDOM)"            # random suffix so the global name is unique. Hard-code it once chosen, so new shells reuse it!
+
+export RG="rg-cu-demo-${SUF}"
+export LOC="eastus2"                             # Must be a Content Understanding region that offers gpt-4.1, gpt-4.1-mini and text-embedding-3-large (GlobalStandard).
+                                                 # eastus2 worked for us. See the "Content Understanding language and region support" page in Microsoft Learn.
+export FOUNDRY="ais-cu-demo-${SUF}"           # Foundry (AIServices) resource, also the custom subdomain
+
+# Tags. Many subscriptions have a policy that denies resources without non-empty Owner and Purpose tags, so pass both.
+export TAGS="Owner=${OWNER_EMAIL} Purpose=content-understanding-demo project=content-understanding-demo environment=sandbox delete-after=demo-complete"
+
+# Used by the Python scripts in app/ (cu.py refuses to start without it).
+export CU_ENDPOINT="https://${FOUNDRY}.cognitiveservices.azure.com"
+export MSYS_NO_PATHCONV=1                        # Git Bash on Windows: stop it rewriting /subscriptions/... paths

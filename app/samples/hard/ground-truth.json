@@ -1,0 +1,254 @@
+{
+  "hard-01-multipage.pdf": {
+    "VendorName": "Globex Industrial Supply",
+    "CustomerName": "Initrode Fabrication LLC",
+    "InvoiceId": "GL-771204",
+    "InvoiceDate": "2026-04-09",
+    "DueDate": "2026-05-24",
+    "PurchaseOrder": "4500-88217",
+    "SubTotal": 20250.54,
+    "TotalTax": 1316.29,
+    "InvoiceTotal": 21566.83,
+    "Currency": "USD",
+    "LineItems": [
+      {
+        "Description": "Hex bolt M8x40 zinc",
+        "Quantity": 30,
+        "UnitPrice": 41.6,
+        "Amount": 1248.0
+      },
+      {
+        "Description": "Hex nut M8 zinc",
+        "Quantity": 56,
+        "UnitPrice": 44.39,
+        "Amount": 2485.84
+      },
+      {
+        "Description": "Flat washer M8",
+        "Quantity": 31,
+        "UnitPrice": 21.88,
+        "Amount": 678.28
+      },
+      {
+        "Description": "Lock washer M8",
+        "Quantity": 56,
+        "UnitPrice": 28.34,
+        "Amount": 1587.04
+      },
+      {
+        "Description": "Carriage bolt M10x80",
+        "Quantity": 13,
+        "UnitPrice": 38.66,
+        "Amount": 502.58
+      },
+      {
+        "Description": "Threaded rod M12 1m",
+        "Quantity": 32,
+        "UnitPrice": 30.36,
+        "Amount": 971.52
+      },
+      {
+        "Description": "Anchor sleeve 10mm",
+        "Quantity": 52,
+        "UnitPrice": 9.22,
+        "Amount": 479.44
+      },
+      {
+        "Description": "Angle bracket 50mm",
+        "Quantity": 30,
+        "UnitPrice": 14.81,
+        "Amount": 444.3
+      },
+      {
+        "Description": "Corner brace 3in",
+        "Quantity": 7,
+        "UnitPrice": 26.02,
+        "Amount": 182.14
+      },
+      {
+        "Description": "Pipe clamp 25mm",
+        "Quantity": 58,
+        "UnitPrice": 33.39,
+        "Amount": 1936.62
+      },
+      {
+        "Description": "U-bolt 40mm",
+        "Quantity": 4,
+        "UnitPrice": 28.72,
+        "Amount": 114.88
+      },
+      {
+        "Description": "Eye bolt M8",
+        "Quantity": 27,
+        "UnitPrice": 46.32,
+        "Amount": 1250.64
+      },
+      {
+        "Description": "Turnbuckle 3/8in",
+        "Quantity": 43,
+        "UnitPrice": 35.56,
+        "Amount": 1529.08
+      },
+      {
+        "Description": "Wire rope 6mm /m",
+        "Quantity": 43,
+        "UnitPrice": 7.85,
+        "Amount": 337.55
+      },
+      {
+        "Description": "Cable tie 300mm (100)",
+        "Quantity": 2,
+        "UnitPrice": 39.98,
+        "Amount": 79.96
+      },
+      {
+        "Description": "Self-tap screw 4.8x25 (200)",
+        "Quantity": 6,
+        "UnitPrice": 3.19,
+        "Amount": 19.14
+      },
+      {
+        "Description": "Drywall screw 3.5x40 (500)",
+        "Quantity": 14,
+        "UnitPrice": 42.26,
+        "Amount": 591.64
+      },
+      {
+        "Description": "Concrete screw 6x60 (50)",
+        "Quantity": 40,
+        "UnitPrice": 1.78,
+        "Amount": 71.2
+      },
+      {
+        "Description": "Rivet 4mm (250)",
+        "Quantity": 31,
+        "UnitPrice": 15.9,
+        "Amount": 492.9
+      },
+      {
+        "Description": "Spring clip 8mm",
+        "Quantity": 39,
+        "UnitPrice": 40.49,
+        "Amount": 1579.11
+      },
+      {
+        "Description": "Cotter pin 3x30 (100)",
+        "Quantity": 35,
+        "UnitPrice": 11.48,
+        "Amount": 401.8
+      },
+      {
+        "Description": "Shackle 8mm",
+        "Quantity": 20,
+        "UnitPrice": 24.16,
+        "Amount": 483.2
+      },
+      {
+        "Description": "Hinge 100mm pair",
+        "Quantity": 44,
+        "UnitPrice": 4.4,
+        "Amount": 193.6
+      },
+      {
+        "Description": "Door pull handle",
+        "Quantity": 43,
+        "UnitPrice": 13.6,
+        "Amount": 584.8
+      },
+      {
+        "Description": "Padlock hasp 120mm",
+        "Quantity": 37,
+        "UnitPrice": 47.79,
+        "Amount": 1768.23
+      },
+      {
+        "Description": "Gate latch 200mm",
+        "Quantity": 55,
+        "UnitPrice": 4.31,
+        "Amount": 237.05
+      }
+    ]
+  },
+  "hard-02-fax.pdf": {
+    "VendorName": "Initech Parts & Service",
+    "CustomerName": "Hooli Logistics Inc.",
+    "InvoiceId": "INI-60417",
+    "InvoiceDate": "2026-05-06",
+    "DueDate": "2026-06-05",
+    "PurchaseOrder": "HL-30911",
+    "SubTotal": 1413.4,
+    "TotalTax": 98.94,
+    "InvoiceTotal": 1512.34,
+    "Currency": "USD",
+    "LineItems": [
+      {
+        "Description": "Brake pad set, front",
+        "Quantity": 4,
+        "UnitPrice": 61.4,
+        "Amount": 245.6
+      },
+      {
+        "Description": "Rotor 320mm",
+        "Quantity": 4,
+        "UnitPrice": 118.75,
+        "Amount": 475.0
+      },
+      {
+        "Description": "Caliper rebuild kit",
+        "Quantity": 2,
+        "UnitPrice": 39.9,
+        "Amount": 79.8
+      },
+      {
+        "Description": "Labor, 6.5 hrs",
+        "Quantity": 1,
+        "UnitPrice": 585.0,
+        "Amount": 585.0
+      },
+      {
+        "Description": "Shop supplies",
+        "Quantity": 1,
+        "UnitPrice": 28.0,
+        "Amount": 28.0
+      }
+    ]
+  },
+  "hard-03-tricky.pdf": {
+    "VendorName": "Wide World Importers Pty Ltd",
+    "CustomerName": "Blackwood Builders Co-operative",
+    "InvoiceId": "WWI-2026-3318",
+    "InvoiceDate": "2026-05-19",
+    "DueDate": "2026-06-18",
+    "PurchaseOrder": "WW-PO-48820",
+    "SubTotal": 4048.35,
+    "TotalTax": 420.34,
+    "InvoiceTotal": 4623.69,
+    "Currency": "AUD",
+    "LineItems": [
+      {
+        "Description": "Laminated floor panels, pack of 12",
+        "Quantity": 18,
+        "UnitPrice": 142.0,
+        "Amount": 2300.4
+      },
+      {
+        "Description": "Underlay roll 15m2",
+        "Quantity": 18,
+        "UnitPrice": 38.5,
+        "Amount": 693.0
+      },
+      {
+        "Description": "Skirting board 2.4m",
+        "Quantity": 60,
+        "UnitPrice": 11.75,
+        "Amount": 669.75
+      },
+      {
+        "Description": "Adhesive 5L",
+        "Quantity": 6,
+        "UnitPrice": 64.2,
+        "Amount": 385.2
+      }
+    ]
+  }
+}

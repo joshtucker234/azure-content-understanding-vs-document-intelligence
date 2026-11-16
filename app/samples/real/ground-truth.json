@@ -1,0 +1,42 @@
+{
+  "hf-invoice.pdf": {
+    "_source": "huggingface.co/datasets/philschmid/pdf-samples (Apache 2.0). Hand-labelled from the page. Fake names (generated data).",
+    "_notes": "Date 10/09/2012 is ambiguous (Oct 9 or Sep 10), either accepted. Totals use comma decimals in the table. Line 'Amount' accepts net worth or gross worth (AmountAlt).",
+    "VendorName": "Williams LLC",
+    "CustomerName": "Hernandez-Anderson",
+    "InvoiceId": "27301261",
+    "InvoiceDate": ["2012-09-10", "2012-10-09"],
+    "DueDate": null,
+    "PurchaseOrder": null,
+    "SubTotal": 494.96,
+    "TotalTax": 49.5,
+    "InvoiceTotal": 544.46,
+    "Currency": "USD",
+    "LineItems": [
+      {"Description": "Lilly Pulitzer dress Size 2", "Quantity": 5, "UnitPrice": 45.0, "Amount": 225.0, "AmountAlt": 247.5},
+      {"Description": "New ERIN Erin Fertherston Straight Dress White Sequence Lining Sleeveless SZ 10", "Quantity": 1, "UnitPrice": 59.99, "Amount": 59.99, "AmountAlt": 65.99},
+      {"Description": "Sequence dress Size Small", "Quantity": 3, "UnitPrice": 35.0, "Amount": 105.0, "AmountAlt": 115.5},
+      {"Description": "fire los angeles dress Medium", "Quantity": 3, "UnitPrice": 6.5, "Amount": 19.5, "AmountAlt": 21.45},
+      {"Description": "Eileen Fisher Women's Long Sleeve Fleece Lined Front Pockets Dress XS Gray", "Quantity": 3, "UnitPrice": 15.99, "Amount": 47.97, "AmountAlt": 52.77},
+      {"Description": "Lularoe Nicole Dress Size Small Light Solid Grey/ White Ringer Tee Trim", "Quantity": 2, "UnitPrice": 3.75, "Amount": 7.5, "AmountAlt": 8.25},
+      {"Description": "J.Crew Collection Black & White sweater Dress sz S", "Quantity": 1, "UnitPrice": 30.0, "Amount": 30.0, "AmountAlt": 33.0}
+    ]
+  },
+  "hf-invoice_with_scribbles.pdf": {
+    "_source": "huggingface.co/datasets/philschmid/pdf-samples (Apache 2.0). Hand-labelled from the page. Spanish, handwriting and highlighter overlays, PAGADA stamp.",
+    "_notes": "Dates 09/01/2014 are ambiguous (9 Jan or 1 Sep), either accepted. No tax line and no PO number exist, so a tool that returns a value for those is inventing it.",
+    "VendorName": "SIMEDIC",
+    "CustomerName": "Future Solutions",
+    "InvoiceId": "2",
+    "InvoiceDate": ["2014-01-09", "2014-09-01"],
+    "DueDate": ["2014-01-09", "2014-09-01"],
+    "PurchaseOrder": null,
+    "SubTotal": 1350.0,
+    "TotalTax": null,
+    "InvoiceTotal": 1350.0,
+    "Currency": "USD",
+    "LineItems": [
+      {"Description": "Pelicula 14 x 17", "Quantity": 9, "UnitPrice": 150.0, "Amount": 1350.0}
+    ]
+  }
+}

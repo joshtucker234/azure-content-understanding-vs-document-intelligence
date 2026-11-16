@@ -1,0 +1,107 @@
+{
+  "invoice-01-clean.pdf": {
+    "VendorName": "Northwind Fabrication Co.",
+    "CustomerName": "Contoso Labs Ltd.",
+    "InvoiceId": "NW-2026-0417",
+    "InvoiceDate": "2026-03-14",
+    "DueDate": "2026-04-13",
+    "PurchaseOrder": "PO-55812",
+    "SubTotal": 1598.0,
+    "TotalTax": 127.84,
+    "InvoiceTotal": 1725.84,
+    "Currency": "USD",
+    "LineItemCount": 3,
+    "LineItems": [
+      {
+        "Description": "Steel bracket, 40mm",
+        "Quantity": 120,
+        "UnitPrice": 4.75,
+        "Amount": 570.0
+      },
+      {
+        "Description": "Mounting plate, 6mm",
+        "Quantity": 40,
+        "UnitPrice": 18.2,
+        "Amount": 728.0
+      },
+      {
+        "Description": "Fastener kit (M6)",
+        "Quantity": 25,
+        "UnitPrice": 12.0,
+        "Amount": 300.0
+      }
+    ]
+  },
+  "invoice-02-scanned.pdf": {
+    "VendorName": "Fabrikam Office Supply",
+    "CustomerName": "Adventure Works Cycles",
+    "InvoiceId": "FAB-88213",
+    "InvoiceDate": "2026-02-02",
+    "DueDate": "2026-03-04",
+    "PurchaseOrder": "AW-7731",
+    "SubTotal": 1629.65,
+    "TotalTax": 134.45,
+    "InvoiceTotal": 1764.1,
+    "Currency": "USD",
+    "LineItemCount": 4,
+    "LineItems": [
+      {
+        "Description": "Copy paper, case",
+        "Quantity": 18,
+        "UnitPrice": 42.5,
+        "Amount": 765.0
+      },
+      {
+        "Description": "Toner cartridge, black",
+        "Quantity": 6,
+        "UnitPrice": 96.0,
+        "Amount": 576.0
+      },
+      {
+        "Description": "Desk organizer",
+        "Quantity": 10,
+        "UnitPrice": 14.99,
+        "Amount": 149.9
+      },
+      {
+        "Description": "Whiteboard markers (12)",
+        "Quantity": 15,
+        "UnitPrice": 9.25,
+        "Amount": 138.75
+      }
+    ]
+  },
+  "invoice-03-eu.pdf": {
+    "VendorName": "Tailspin Logistik GmbH",
+    "CustomerName": "Litware Retail SA",
+    "InvoiceId": "TL/2026/00931",
+    "InvoiceDate": "2026-01-21",
+    "DueDate": "2026-02-20",
+    "PurchaseOrder": "LW-2209",
+    "SubTotal": 1447.5,
+    "TotalTax": 275.02,
+    "InvoiceTotal": 1722.52,
+    "Currency": "EUR",
+    "LineItemCount": 3,
+    "LineItems": [
+      {
+        "Description": "Pallet freight, Hamburg-Paris",
+        "Quantity": 4,
+        "UnitPrice": 310.0,
+        "Amount": 1240.0
+      },
+      {
+        "Description": "Customs handling",
+        "Quantity": 1,
+        "UnitPrice": 145.0,
+        "Amount": 145.0
+      },
+      {
+        "Description": "Insurance surcharge",
+        "Quantity": 1,
+        "UnitPrice": 62.5,
+        "Amount": 62.5
+      }
+    ]
+  }
+}
